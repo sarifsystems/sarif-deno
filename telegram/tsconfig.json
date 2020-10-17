@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": ".",
+    "lib": [
+      "es2017"
+    ],
+    "paths": [
+        "*.ts": ["*"]
+    ]
+  }
+}
