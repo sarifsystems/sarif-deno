@@ -1,6 +1,6 @@
-import { connect } from './sarif/amqp.ts';
-import { parseNaturalMessage } from './sarif/util.ts';
-import { Bot } from "https://deno.land/x/telegram@v0.1.1/mod.ts";
+import { connect } from 'sarif/amqp.ts';
+import { parseNaturalMessage } from 'sarif/util.ts';
+import { Bot } from "telegram/mod.ts";
 
 const token = Deno.env.get("TELEGRAM_BOT_TOKEN") as string;
 

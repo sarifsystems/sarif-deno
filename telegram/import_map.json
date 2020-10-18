@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "telegram/": "https://deno.land/x/telegram@v0.1.1/",
+    "sarif/": "https://raw.githubusercontent.com/sarifsystems/sarif-deno/master/sarif/"
+  }
+}
